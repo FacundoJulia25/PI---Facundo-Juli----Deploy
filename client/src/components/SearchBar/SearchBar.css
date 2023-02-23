@@ -1,0 +1,14 @@
+.searchBar{
+    display: flex;
+    justify-content: center;
+}
+.inputSearchBar{
+    width: 100px;
+    height: 20px;
+    background-color: aliceblue;
+    margin-bottom: 14px;}
+.btnSearchBar{
+    background-color: aliceblue;
+    width: 30px;
+    height:30px;
+}
