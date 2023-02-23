@@ -1,13 +1,15 @@
 import { Route } from 'react-router-dom';
 import './App.css';
 import CreatePokemon from './components/CreatePokemon/CreatePokemon';
-import Error404 from './components/error404/Error404';
 import Home from './components/Home/Home';
 import HomeAux from './components/Home/HomeAux';
 import Landing from './components/Land/Landing';
-import NavBar from './components/NavBar/NavBar';
 import PokemonDetail from './components/PokemonDetail/PokemonDetail';
 import SearchPage from './components/SearchPage/SearchPage';
+import axios from 'axios'
+axios.defaults.baseURL = 'http://localhost:3001'
+
+
 
 function App() {
 

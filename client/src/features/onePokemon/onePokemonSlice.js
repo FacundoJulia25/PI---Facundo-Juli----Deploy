@@ -10,7 +10,7 @@ import axios from "axios";
 //PASO 1 : Crear un async thunk que va a ser nuestra función para
 //realizar el llamado a la api.
 const getOnePokemon = createAsyncThunk('pokemons/getOnePokemon',(name)=>{
-    return axios.get(`http://localhost:3001/pokemons?name=${name}`)
+    return axios.get(`/pokemons?name=${name}`)
         .then(response=>response.data)
         .catch(e=>e.message)
 })

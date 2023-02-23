@@ -12,7 +12,7 @@ import axios from "axios";
 
 
 const getPokemons = createAsyncThunk('pokemons/getPokemons', () => {
-    return axios.get('http://localhost:3001/pokemons')
+    return axios.get('/pokemons')
         .then(response => response.data.map(pokemon => pokemon))
 })
 

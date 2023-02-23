@@ -11,7 +11,7 @@ import axios from "axios";
 //realizar el llamado a la api.
 
 const getTypes = createAsyncThunk('pokemons/getTypes',()=>{
-    return axios.get(`http://localhost:3001/types`)
+    return axios.get(`/types`)
         .then(response=>response.data.map(type=>type))//lo que retorna es el payload que se
                                                             //sumará al state
 })
