@@ -44,7 +44,7 @@ export const pokemonsSlice = createSlice({
             if (action.payload === 'ascendente') {
                 state.filteredPokemons.sort((a, b) => a.attack - b.attack)
                 console.log(state.pokemons, action.payload);
-            } else if (action.payload == 'descendente') {
+            } else if (action.payload === 'descendente') {
                 state.filteredPokemons.sort((a, b) => b.attack - a.attack)
                 console.log(state.pokemons);
             } else if (action.payload === 'az') {
@@ -52,7 +52,7 @@ export const pokemonsSlice = createSlice({
                     if (b.name > a.name) {
                         return -1;
                     }
-                    if (b.name < a.name) {
+                    else if (b.name < a.name) {
                         return 1;
                     }
                 })
@@ -61,7 +61,7 @@ export const pokemonsSlice = createSlice({
                     if (a.name > b.name) {
                         return -1;
                     }
-                    if (a.name < b.name) {
+                    else if (a.name < b.name) {
                         return 1;
                     }
                 })
@@ -70,14 +70,14 @@ export const pokemonsSlice = createSlice({
         filterBy: (state, action) => {
             state.filteredPokemons = state.pokemons //aqui reseteamos
             if (action.payload.type !== '') {
-                if(action.payload === 'fire'){
+                if (action.payload === 'fire') {
                     let filteredPokemons1 = state.pokemons
-                    let filteredPokemons2 = filteredPokemons1.filter(p=>p.types.toString().toLowerCase().includes('flying'))
-                    let filteredPokemons3 = state.pokemons.filter(p=>p.types.toString().toLowerCase().includes('fire'))
+                    let filteredPokemons2 = filteredPokemons1.filter(p => p.types.toString().toLowerCase().includes('flying'))
+                    let filteredPokemons3 = state.pokemons.filter(p => p.types.toString().toLowerCase().includes('fire'))
                     state.filteredPokemons = filteredPokemons2.concat(filteredPokemons3)
 
                     // .concat(filteredPokemons2.filter(p=>p.types.toString().toLowerCase().includes('flying')))
-                }else{
+                } else {
                     state.filteredPokemons = state.pokemons.filter(p => p.types.toString().toLowerCase().includes(action.payload.type.toLowerCase()))
                 }
             }
