@@ -7,7 +7,7 @@ import Landing from './components/Land/Landing';
 import PokemonDetail from './components/PokemonDetail/PokemonDetail';
 import SearchPage from './components/SearchPage/SearchPage';
 import axios from 'axios'
-axios.defaults.baseURL = ''
+axios.defaults.baseURL = 'https://pi-facundo-juli-deploy-production.up.railway.app'
 
 
 
