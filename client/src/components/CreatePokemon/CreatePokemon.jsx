@@ -105,7 +105,7 @@ function CreatePokemon() {
     useEffect(() => {
         if (Object.keys(errors).length === 0 && isSubmit) {
             setPokemon(pokemon)
-            axios.post('http://localhost:3001/pokemons', pokemon)
+            axios.post('pokemons', pokemon)
                 .then(data => {
                     alert('se creó el pokemon', JSON.stringify(data))
                     submitParaReset.current.reset()
