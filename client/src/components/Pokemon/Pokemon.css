@@ -1,11 +1,21 @@
 .pokemonCard {
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
     font-family: 'FjallaOne', sans-serif;
     margin: 10px;
     box-shadow: rgb(70, 64, 64) 3px 3px 3px;
     box-sizing: border-box;
     border-radius: 5%;
+}
+    .pokemonCards{        
+    display: flex;
+    flex-direction: column;
+    font-family: 'FjallaOne', sans-serif;
+    margin: 10px;
+    box-shadow: rgb(70, 64, 64) 3px 3px 3px;
+    box-sizing: border-box;
+    border-radius: 5%;
+
 }
     .cardImage {
     position: relative;
