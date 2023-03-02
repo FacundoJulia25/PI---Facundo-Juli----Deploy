@@ -1,6 +1,6 @@
 .pokemonCard {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
     font-family: 'FjallaOne', sans-serif;
     margin: 10px;
     box-shadow: rgb(70, 64, 64) 3px 3px 3px;
