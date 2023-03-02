@@ -21,7 +21,7 @@
     background-image: url('https://images.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg?cs=srgb&dl=pexels-pixabay-122429.jpg&fm=jpg');
 }
 .grass{
-    background-image: url('https://c1b22854b6.cbaul-cdnwnd.com/3e8961ad0ae5718505965a03d46cb141/200000042-394c9394cd/fondo%20plantas%203.jpg?ph=c1b22854b6');
+    background-image: url('../assets/backgrounds/grass.jpg')
 }
 .ground{
     background-image: url('https://img.freepik.com/fotos-premium/fondo-textura-tierra-concepto-jardineria_23-2148198718.jpg');
