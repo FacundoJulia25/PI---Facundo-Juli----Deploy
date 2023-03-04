@@ -1,8 +1,3 @@
-.nameCardPokemon{
-    color: black;
-    background-color: rgb(255, 255, 255);
-    text-decoration: none;
-}
 .pokemonCard {
     display: flex;
     flex-direction: column;
@@ -55,6 +50,11 @@
 }
 .fairy{
     background-image: url('https://thumbs.dreamstime.com/b/magia-de-fantas%C3%ADa-part%C3%ADculas-estrella-t%C3%BAnel-ilustraci%C3%B3n-d-fondo-art%C3%ADstica-brillantes-rosa-espacio-k-uhd-vfx-pantalla-arte-203808587.jpg');
+}
+.nameCardPokemon{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 .linksPokemons{
     color: black;
