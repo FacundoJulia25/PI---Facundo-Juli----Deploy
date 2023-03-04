@@ -7,62 +7,65 @@
     box-sizing: border-box;
     border-radius: 5%;
 }
-    .pokemonCards{        
-    display: flex;
-    flex-direction: column;
-    font-family: 'FjallaOne', sans-serif;
-    margin: 10px;
-    box-shadow: rgb(70, 64, 64) 3px 3px 3px;
-    box-sizing: border-box;
-    border-radius: 5%;
 
-}
-    .cardImage {
+.cardImage {
     position: relative;
     border-radius: 5% 5% 0 0;
     background-image: url('../assets/backgrounds/Normal.jpg');
     background-size: cover;
-    filter:brightness(1.1);
+    filter: brightness(1.1);
 }
-.fire{
-    background-image: url('https://img.freepik.com/vector-gratis/diseno-fondo-fuego_1189-229.jpg?w=2000');
-}
-.bug{
-    background-image: url('https://images.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg?cs=srgb&dl=pexels-pixabay-122429.jpg&fm=jpg');
-}
-.grass{
-    background-image: url('../assets/backgrounds/grass.jpg')
-}
-.ground{
-    background-image: url('https://img.freepik.com/fotos-premium/fondo-textura-tierra-concepto-jardineria_23-2148198718.jpg');
-}
-.flying{
-    background-image: url( 'https://img.freepik.com/premium-vector/doodle-wind-gust-isolated-white-background-hand-drawn-vector-illustration_36380-803.jpg?w=2000');
-}
-.water{
-    background-image: url('https://a-static.besthdwallpaper.com/sol-en-la-superficie-del-agua-papel-pintado-2560x1600-12526_7.jpg');    
-}
-.electric{
-    background-image: url('https://i.ytimg.com/vi/GRHONDlbclM/maxresdefault.jpg');
-}
-.poison{
-    background-image: url('https://i.pinimg.com/originals/a4/bd/07/a4bd0728319084bbe79ecab9be68c2f9.jpg');
-}
-.fairy{
-    background-image: url('https://thumbs.dreamstime.com/b/magia-de-fantas%C3%ADa-part%C3%ADculas-estrella-t%C3%BAnel-ilustraci%C3%B3n-d-fondo-art%C3%ADstica-brillantes-rosa-espacio-k-uhd-vfx-pantalla-arte-203808587.jpg');
-}
-.nameCardPokemon{
-    color: black;
-    background-color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-.linksPokemons{
+
+.linksPokemons {
     color: black;
     font-size: 4vh;
     font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
 }
-.typesPokemons{
+
+.typesPokemons {
     background-color: rgb(152, 152, 152);
-    border-radius: 0 0 15px 15px ;
+    border-radius: 0 0 15px 15px;
+}
+
+
+.fire {
+    background-image: url('https://img.freepik.com/vector-gratis/diseno-fondo-fuego_1189-229.jpg?w=2000');
+}
+
+.bug {
+    background-image: url('https://images.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg?cs=srgb&dl=pexels-pixabay-122429.jpg&fm=jpg');
+}
+
+.grass {
+    background-image: url('../assets/backgrounds/grass.jpg')
+}
+
+.ground {
+    background-image: url('https://img.freepik.com/fotos-premium/fondo-textura-tierra-concepto-jardineria_23-2148198718.jpg');
+}
+
+.flying {
+    background-image: url('https://img.freepik.com/premium-vector/doodle-wind-gust-isolated-white-background-hand-drawn-vector-illustration_36380-803.jpg?w=2000');
+}
+
+.water {
+    background-image: url('https://a-static.besthdwallpaper.com/sol-en-la-superficie-del-agua-papel-pintado-2560x1600-12526_7.jpg');
+}
+
+.electric {
+    background-image: url('https://i.ytimg.com/vi/GRHONDlbclM/maxresdefault.jpg');
+}
+
+.poison {
+    background-image: url('https://i.pinimg.com/originals/a4/bd/07/a4bd0728319084bbe79ecab9be68c2f9.jpg');
+}
+
+.fairy {
+    background-image: url('https://thumbs.dreamstime.com/b/magia-de-fantas%C3%ADa-part%C3%ADculas-estrella-t%C3%BAnel-ilustraci%C3%B3n-d-fondo-art%C3%ADstica-brillantes-rosa-espacio-k-uhd-vfx-pantalla-arte-203808587.jpg');
+}
+.nameCardPokemon {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
 }

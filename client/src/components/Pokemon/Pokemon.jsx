@@ -14,7 +14,7 @@ function Pokemon(props) {
 
     console.log(elemento);
     return (
-        <div className="pokemonCards">
+        <div className="pokemonCard">
             <img className={`cardImage ${elemento}`} src={img} alt={name} />
             <h1 className="nameCardPokemon">
                 <Link className="linksPokemons" to={`/pokemons/${name.toLowerCase()}`}>
