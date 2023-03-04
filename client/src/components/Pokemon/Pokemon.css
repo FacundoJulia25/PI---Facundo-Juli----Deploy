@@ -1,3 +1,8 @@
+.nameCardPokemon {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 .pokemonCard {
     display: flex;
     flex-direction: column;
@@ -6,11 +11,6 @@
     box-shadow: rgb(70, 64, 64) 3px 3px 3px;
     box-sizing: border-box;
     border-radius: 5%;
-}
-.nameCardPokemon {
-    color: black;
-    background-color: rgb(255, 255, 255);
-    text-decoration: none;
 }
 .cardImage {
     position: relative;
